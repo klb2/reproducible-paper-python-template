@@ -12,6 +12,9 @@ You can use this template/fork it and use it as a starting point. You find a
 basic structure in `main.py`, where only need to add your custom code.
 This README also already contains all important information and you only need
 to adjust the parts specific to your project.
+The `run.sh` script should contain the exact commands that you used to generate
+the results/plots in your paper. In particular, you should make sure to specify
+all of the parameters.
 
 The proposed structure of the README is
 1. Information about the paper (title, authors, journal/conference, DOI, arXiv)

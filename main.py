@@ -9,7 +9,7 @@ LOGGER = logging.getLogger(__name__)
 
 def main(plot=False, export=False):
     ###
-    # YOUR CODE HERE
+    # TODO: YOUR CODE HERE
     x = [1, 2, 3]
     y = [-5, 2, 1]
     results = {"x": x, "y": y}
@@ -26,6 +26,9 @@ def main(plot=False, export=False):
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
+    ###
+    # TODO: Add command line arguments that you need
+    ###
     parser.add_argument("--plot", action="store_true")
     parser.add_argument("--export", action="store_true")
     parser.add_argument("-v", "--verbosity", action="count", default=0,
