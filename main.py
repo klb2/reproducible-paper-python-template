@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from util import export_results
 
 
-LOGGER = logging.getLogger()
+LOGGER = logging.getLogger(__name__)
 
 def main(plot=False, export=False):
     # YOUR CODE HERE
@@ -28,8 +28,12 @@ if __name__ == "__main__":
                         help="Increase output verbosity")
     args = vars(parser.parse_args())
     verb = args.pop("verbosity")
-    loglevel = logging.WARNING - verb*10
     logging.basicConfig(format="%(asctime)s - [%(levelname)8s]: %(message)s",
-                        filename="main.log", encoding='utf-8', level=loglevel)
+                        handlers=[
+                            logging.FileHandler("main.log", encoding="utf-8"),
+                            logging.StreamHandler()
+                        ])
+    loglevel = logging.WARNING - verb*10
+    LOGGER.setLevel(loglevel)
     main(**args)
     plt.show()
