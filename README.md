@@ -26,8 +26,10 @@ The proposed structure of the README is
 5. License and Referencing (description of license and how to cite your work,
    e.g., the bibtex entry of your paper)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/klb2/reproducible-paper-python-template/HEAD)
+
 ```diff
-! Add binder badge
+! Add binder badge like the one above
 ```
 
 
