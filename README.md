@@ -8,6 +8,11 @@ results.
 The code should be made publicly accessible in order to allow everybody to
 reproduce the results presented in the paper.
 
+You can use this template/fork it and use it as a starting point. You find a
+basic structure in `main.py`, where only need to add your custom code.
+This README also already contains all important information and you only need
+to adjust the parts specific to your project.
+
 The proposed structure of the README is
 1. Information about the paper (title, authors, journal/conference, DOI, arXiv)
 2. File list of all files that are provided in the repository (with short
