@@ -8,15 +8,19 @@ from util import export_results
 LOGGER = logging.getLogger(__name__)
 
 def main(plot=False, export=False):
+    ###
     # YOUR CODE HERE
     x = [1, 2, 3]
     y = [-5, 2, 1]
     results = {"x": x, "y": y}
+    ###
+
     if plot:
         plt.plot(x, y)
     if export:
         LOGGER.info("Exporting results.")
         export_results(results, "results.dat")
+    return results
 
 
 if __name__ == "__main__":
