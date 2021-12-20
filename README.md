@@ -26,6 +26,12 @@ The proposed structure of the README is
 5. License and Referencing (description of license and how to cite your work,
    e.g., the bibtex entry of your paper)
 
+You can find some general ideas on the structure and required aspects of the
+repository in [this blog
+post](https://klb2.gitlab.io/writing/python/2021/12/20/reproducible-papers.html)
+(independent of the used programming language).
+
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/klb2/reproducible-paper-python-template/HEAD)
 
 ```diff
