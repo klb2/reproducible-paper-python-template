@@ -105,6 +105,13 @@ code for research that results in publications, please cite our original
 article listed above.
 
 You can use the following BibTeX entry
+```bibtex
+@article{...,
+  author = {...},
+  title = {...},
+  ...
+}
+```
 ```diff
 ! Add bibtex entry of the published paper
 ```
