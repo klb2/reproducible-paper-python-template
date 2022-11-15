@@ -1,5 +1,14 @@
 # Template for Reproducible Research Papers
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/klb2/reproducible-paper-python-template/HEAD)
+![GitHub](https://img.shields.io/github/license/klb2/reproducible-paper-python-template)
+[![DOI](https://img.shields.io/badge/doi-10.1109/TWC.2022.3172760-informational)](https://doi.org/10.1109/TWC.2022.3172760)
+
+
+```diff
+! Update badge information/links
+```
+
 This repository provides a template for Python code that is accompanying a
 research paper.
 Most likely, this will be an implementation of an algorithm and/or simulation
@@ -30,13 +39,6 @@ You can find some general ideas on the structure and required aspects of the
 repository in [this blog
 post](https://klb2.gitlab.io/writing/python/2021/12/20/reproducible-papers.html)
 (independent of the used programming language).
-
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/klb2/reproducible-paper-python-template/HEAD)
-
-```diff
-! Add binder badge like the one above
-```
 
 
 ## File List
