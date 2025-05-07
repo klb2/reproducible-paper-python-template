@@ -1,6 +1,6 @@
 # Template for Reproducible Research Papers
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/klb2/reproducible-paper-python-template/HEAD)
+[![Marimo](https://img.shields.io/badge/Launch-Marimo_notebook-hsl(168%2C61%25%2C28%25))](https://marimo.app/?src=https%3A%2F%2Fraw.githubusercontent.com%2Fklb2%2Freproducible-paper-python-template%2Frefs%2Fheads%2Fmaster%2FInteractive.py)
 ![GitHub](https://img.shields.io/github/license/klb2/reproducible-paper-python-template)
 [![DOI](https://img.shields.io/badge/doi-10.1109/TWC.2022.3172760-informational)](https://doi.org/10.1109/TWC.2022.3172760)
 
@@ -53,37 +53,35 @@ The following files are provided in this repository:
 
 ## Usage
 ### Running it online
-The easiest way is to use services like [Binder](https://mybinder.org/) to run
-the notebook online. Simply navigate to
+The easiest way is to use the official [marimo](https://marimo.app/) playground
+to run the notebook online. Simply navigate to [https://marimo.app/?src=https%3A%2F%2Fraw.githubusercontent.com%2Fklb2%2Freproducible-paper-python-template%2Frefs%2Fheads%2Fmaster%2FInteractive.py](https://marimo.app/?src=https%3A%2F%2Fraw.githubusercontent.com%2Fklb2%2Freproducible-paper-python-template%2Frefs%2Fheads%2Fmaster%2FInteractive.py)
 ```diff
-! Add binder link.
+! Add Marimo app link to notebook.
 ```
 to run the notebooks in your browser without setting everything up locally.
 
 ### Local Installation
-If you want to run it locally on your machine, Python3 and Jupyter are needed.
+If you want to run it locally on your machine, Python3 and marimo are needed.
 The present code was developed and tested with the following versions:
 ```diff
-- Python 3.8
-- Jupyter 1.0
-- numpy 1.18
-- scipy 1.4
+- Python 3.13
+- numpy 2.2
+- scipy 1.15
 ```
 
 Make sure you have [Python3](https://www.python.org/downloads/) installed on
 your computer.
-You can then install the required packages (including Jupyter) by running
+You can then install the required packages by running
 ```bash
 pip3 install -r requirements.txt
-jupyter nbextension enable --py widgetsnbextension
 ```
 This will install all the needed packages which are listed in the requirements 
-file. The second line enables the interactive controls in the Jupyter
-notebooks.
+file.
 
-Finally, you can run the Jupyter notebooks with
+
+Finally, you can run the Marimo notebooks with
 ```bash
-jupyter notebook
+marimo run Interactive.py
 ```
 
 You can also recreate the figures from the paper by running
@@ -100,7 +98,7 @@ This research was supported by
 
 
 ## License and Referencing
-This program is licensed under the GPLv3 license. If you in any way use this
+This program is licensed under the MIT license. If you in any way use this
 code for research that results in publications, please cite our original
 article listed above.
 
